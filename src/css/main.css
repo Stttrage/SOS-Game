@@ -27,6 +27,7 @@ header {
   min-height: 100vh;
   transform-style: inherit;
   width: 100vw;
+  background-image: url(/src/img/header/bg-image.png);
 }
 
 header::before {
@@ -40,7 +41,6 @@ header::before {
   z-index: -1;
   transform-origin: center;
   min-height: 100vh;
-  background-image: url(/src/img/header/bg-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   transition: 1s;
