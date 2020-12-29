@@ -6,8 +6,9 @@
  <title>SOS game</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
  
 <body>
@@ -76,11 +77,73 @@
 
 
 <main>
-  hfghjgjg
+    <section class="about">
+      <div class="about__descr">
+          <p class="about-text__question">What is SOS?</p>
+          <h1 class="about-text__title">social battle<br> 
+          royale game </h1>
+          <hr class="about-text__line">
+          <div class="about-text__paragraph">
+            <p class="about-paragraph__first">Each round, <b>you</b> and <b>15</b> other contestants compete to
+              escape a deadly island filled with monsters. The trick is: <b>three</b> people can survive. Will you run
+              solo or form friendships with others to escape?</p>
+
+            <p>Making the right decisions could be the
+              difference between <span class="about-text__underline">life and death.</span> </p>
+          </div>
+      </div>
+      <!-- Главный блок по тексту/ Main block by text  -->
+
+      
+        <div class="image-slider swiper-container">
+          <div class="image-slider__wrapper swiper-wrapper">
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="img/about/screenshot-1.png" alt="Image">
+              </div>
+            </div>
+            <!-- Картинка / Image -->
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="img/about/screenshot-2.png" alt="Image">
+              </div>
+            </div>
+            <!-- Картинка / Image -->
+
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="img/about/screenshot-3.png" alt="Image">
+              </div>
+            </div>
+            <!-- Картинка / Image -->
+
+
+
+          </div>
+          <!-- Оболочка / Cover -->
+
+          <div class="swiper-button-next">
+            <img src="img/about/switch.svg" alt="arrow">
+          </div>
+          <!-- Переключатель / Switch  -->
+
+          <div class="swiper-pagination">
+            <img src="img/about/bullet.svg" alt="bullet">
+          </div>
+        </div>
+        
+
+      <!-- Слайдер / Swiper -->
+
+      
+    </section>
 </main>
 
 
-
-
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slider.js"></script>
+  
 </body>
 </html>
